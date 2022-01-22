@@ -6,12 +6,12 @@ class ImageSlider extends React.Component {
         super()
 
         this.state = {
-            currentIndex: 0
+            currentSlideIndex: 0
         }
     }
     render() {
         return (
-            <h1>I am on slide {this.state.currentIndex}</h1>
+            <h1>I am on slide {this.state.currentSlideIndex}</h1>
         )
     }
 }
